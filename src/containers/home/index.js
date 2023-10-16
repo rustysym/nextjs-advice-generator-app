@@ -14,7 +14,7 @@ export default function Home() {
   }, []);
   return (
     <main className="flex flex-col h-screen w-screen justify-center items-center">
-      <div className="w-80 h-[22rem] bg-dark-grayish-blue rounded-xl drop-shadow-lb sm:w-[500px] sm:h-[19rem]">
+      <div className="w-80 h-[22rem] bg-dark-grayish-blue rounded-xl shadow-lb sm:w-[500px] sm:h-[19rem]">
         <div className="flex flex-col justify-center items-center p-8 space-y-8">
           <h1 className="text-neon-green uppercase tracking-[0.25rem] text-xs font-medium">
             Advice #{advices.slip?.id}

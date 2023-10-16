@@ -24,10 +24,9 @@ module.exports = {
     },
     boxShadow:{
       'neonxl': '3px 0px 30px 0px hsl(150, 100%, 66%)',
+      'lb': '12px 12px 12px 3px  rgba(0,0,0,0.1)',
     },
-    dropShadow:{
-      'lb': '0 5px 10px  hsl(218, 23%, 16%)',
-    }
+    
   },
   plugins: [],
 }
